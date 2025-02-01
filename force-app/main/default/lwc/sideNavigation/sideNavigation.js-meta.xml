@@ -2,16 +2,9 @@
 <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>62.0</apiVersion>
     <isExposed>true</isExposed>
-    <targets>
-    <!-- App Page in Lightning Experience -->
+  <targets>
     <target>lightning__AppPage</target>
-    <!-- Record Page -->
-    <target>lightning__RecordPage</target>
-    <!-- Home Page -->
-    <target>lightning__HomePage</target>
-    <!-- Community Builder -->
     <target>lightningCommunity__Page</target>
-    <!-- Utility Bar -->
-    <target>lightning__UtilityBar</target>
+    <target>lightning__HomePage</target>
   </targets>
 </LightningComponentBundle>
